@@ -25,7 +25,6 @@ class Repo private constructor(var context: Context){
             val indexArtist = cursor.getColumnIndex(MediaStore.Audio.Media.ARTIST)
 
             do{
-
                 songList.add(
                     Song(
                         cursor.getLong(indexId),

@@ -1,7 +1,5 @@
 package com.example.mymusicplayer.view
 
-
-import android.content.ContentProvider
 import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -50,4 +48,5 @@ class DetailSongFragment : Fragment() {
     companion object {
         fun newInstance() = DetailSongFragment()
     }
+    //abc
 }
